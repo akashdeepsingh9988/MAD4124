@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Invite">
+
+
+
+    <Button
+        android:id="@+id/main_smsSendBtn_id"
+        android:layout_width="wrap_content"
+        android:layout_height="34dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="324dp"
+        android:layout_marginEnd="142dp"
+        android:layout_marginBottom="153dp"
+        android:text="Invite"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_editor_absoluteX="148dp" />
+
+    <EditText
+        android:id="@+id/main_id_no"
+        android:layout_width="296dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="208dp"
+        android:ems="10"
+        android:hint="+1 XXX-XXX-XXXX"
+        android:inputType="phone" />
+
+    <Button
+        android:id="@+id/selectNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="132dp"
+        android:text="Select number from Contacts" />
+
+</RelativeLayout>
